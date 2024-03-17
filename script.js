@@ -1,3 +1,4 @@
+"use strict";
 const apiKey = "8a52342bf29540b3bd5bea7d88ce56d7";
 
 const apiUrl =
@@ -25,7 +26,7 @@ fetch(apiUrl)
   .then((response) => response.json())
   .then((data) => {
     const newsList = document.getElementById("newsList");
-    totalNews = data.articles.length; // Set totalNews
+    totalNews = data.articles.length;
     data.articles.forEach((article, index) => {
       const li = document.createElement("li");
       li.classList.add("newsItem");
