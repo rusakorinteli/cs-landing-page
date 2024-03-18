@@ -89,7 +89,7 @@ nav {
 .mainphoto {
   max-width: 100%;
   height: 1200px;
-  background-image: url(images/mainphoto.png);
+  background-image: url(../images/mainphoto.png);
   position: relative;
 }
 .maintext {
