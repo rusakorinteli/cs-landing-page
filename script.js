@@ -2,6 +2,10 @@ import { initializeMenu } from "./burger.js";
 
 initializeMenu();
 
+import { validationForm } from "./forms.js";
+
+validationForm();
+
 async function fetchData() {
   try {
     const response = await fetch("https://jsonplaceholder.typicode.com/posts");

@@ -509,3 +509,7 @@ input[type="submit"]:hover {
 .space1 {
   margin-bottom: 20px;
 }
+.error-texts {
+  color: rgb(132, 23, 23);
+  margin-bottom: 20px;
+}
