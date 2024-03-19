@@ -51,3 +51,16 @@ moreButton.addEventListener("click", () => {
   renderData(currentIndex, currentIndex + 5);
   currentIndex += 5;
 });
+
+//header on scroll
+const header = document.getElementById("header");
+
+function toggleHeaderColor() {
+  if (window.scrollY > 0) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
+}
+
+window.addEventListener("scroll", toggleHeaderColor);
