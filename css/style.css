@@ -410,6 +410,9 @@ button {
   font-family: "EB Garamond";
   font-size: 30px;
 }
+.arrow {
+  font-size: 20px;
+}
 button:hover {
   letter-spacing: 15px;
   -webkit-transition: all 0.25s;
@@ -557,4 +560,9 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+.spaninfo {
+  color: #012d09;
+
+  margin-right: 10px;
 }

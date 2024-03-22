@@ -127,6 +127,12 @@
   .container-black {
     height: 4600px;
   }
+  .thoughts {
+    margin-left: 30px;
+  }
+  .right-block-header {
+    display: none;
+  }
 }
 
 @media (max-width: 445px) {
