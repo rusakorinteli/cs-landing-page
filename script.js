@@ -1,3 +1,5 @@
+"use strict";
+
 import { initializeMenu } from "./burger.js";
 
 initializeMenu();
