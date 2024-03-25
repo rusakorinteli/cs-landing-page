@@ -1,7 +1,16 @@
 @media (max-width: 750px) {
   .maintext {
+    font-size: 77px;
     padding-left: 20px;
     padding-top: 100px;
+  }
+}
+@media (max-width: 535px) {
+  .maintext {
+    font-size: 65px;
+    line-height: 90px;
+    padding-left: 100px;
+    padding-top: 300px;
   }
 }
 @media (max-width: 1420px) {
