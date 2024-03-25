@@ -144,8 +144,8 @@ nav {
 }
 .filter {
   width: 300px;
-  margin-bottom: 100px;
-  margin-top: 150px;
+  margin-bottom: 60px;
+  margin-top: 80px;
 }
 #filterInput {
   color: #fff; /* Set text color to white */
